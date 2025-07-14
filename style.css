@@ -1,0 +1,41 @@
+/* style.css */
+body {
+  background: #f8f9fa;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#display {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#start { background-color: #28a745; color: white; }
+#pause { background-color: #ffc107; color: white; }
+#reset { background-color: #dc3545; color: white; }
+#lap { background-color: #007bff; color: white; }
+
+#laps {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
